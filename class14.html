@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradebook</title>
+</head>
+<body>
+<form name="gradebook">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="ptearn">Points Earned:</label><br>
+    <input type="text" id="ptearn" name="ptearn"><br>
+    <label for="ptpos">Points Possible:</label><br>
+    <input type="text" id="ptpos" name="ptpos"><br>
+    <input type="submit" value="Submit">
+</form>
+<p id="name"></p>
+<p id="percent"></p>
+<p id="letter"></p>
+<button id="sortPercent" onclick="comparePercent()"></button>
+<button id="sortName" onclick="compareGrade()"></button>
+<p id="sort"></p>
+<script src="class14.js"></script>
+</body>
+</html>
